@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+html, body {
+  margin: 0;
+  background: #000;
+  overflow: hidden;
+}
+
+img {
+  display: none;
+}
+
+
+.dribbble {
+  position: fixed;
+  display: block;
+  right: 20px;
+  bottom: 20px;
+}
+.dribbble img {
+  display: block;
+  height: 28px;
+}
+.twitter {
+  position: fixed;
+  display: block;
+  right: 64px;
+  bottom: 14px;
+}
+.twitter svg {
+  width: 32px;
+  height: 32px;
+  fill: #1da1f2;
+}
+
+h1 {
+  color:white;
+  font-family: "Fira Code", monospace;
+  text-align: center;
+}
